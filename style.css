@@ -1,3 +1,4 @@
+
 @import url("css/buttons.css");
 @import url("css/project.css");
 @import url("css/blueYellowTheme.css");
@@ -37,7 +38,6 @@ article ul {
     overflow: scroll;
 }
 .center{
-    <!--height: 200px; -->
     padding: 0;
     width: 100%;
     text-align: center;

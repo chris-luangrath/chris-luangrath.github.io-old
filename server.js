@@ -17,7 +17,12 @@ app.get('/', function(req, res) {
   res.setHeader('Content-Type', 'text/html');
   res.sendFile(__dirname + '/index.html');
 });
-
+app.get('/style.css', function(req, res) {
+  console.log('Request for /style.css');
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/css');
+  res.sendFile(__dirname + '/style.css');
+});
 
 
 
